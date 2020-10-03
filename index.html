@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./Styles/main.css">
+    <link rel="stylesheet" href="./Styles/header.css">
+    <link rel="stylesheet" href="./Styles/mobile.css">
+    <link rel="stylesheet" href="./Styles/solution.css">
+    <link rel="stylesheet" href="./Styles/calculateButton.css">
+    <link rel="stylesheet" href="./Styles/inputFields.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fórmula Resolvente</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Fórmula Resolvente</h1>
+        <p>Obtém a solução de uma equação com a fórmula resolvente num ápice!</p>
+    </div>
+    <div class="content">
+            <label for="valorA">Insere o valor de a:</label>
+            <input type="text" id="aValueInput" placeholder="Valor de a...">
+            <label for="valorB">Insere o valor de b:</label>
+            <input type="text" id="bValueInput" placeholder="Valor de b...">
+            <label for="valorC">Insere o valor de c:</label>
+            <input type="text" id="cValueInput" placeholder="Valor de c...">
+            <button id="calculateButton" onclick="calculate()">Calcular</button>
+            <div class="solution">
+                <p id="solution"></p>
+            </div>
+    </div>
+
+    
+
+    <script src="App.js"></script>
+</body>
+</html>

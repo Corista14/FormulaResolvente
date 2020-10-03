@@ -1,0 +1,22 @@
+@media screen and (max-width: 1660px) {
+    .content {
+        margin: 5rem 70px 5rem 70px;
+    }    
+    .header {
+        padding: 20px;
+    }
+    .header h1 {
+        font-size: 45px;
+    }
+    .header p {
+        font-size: 18px;
+    }
+    .content button {
+        width: 100%;
+    }
+    .solution {
+        padding-bottom: 20px;
+    }
+
+    
+}

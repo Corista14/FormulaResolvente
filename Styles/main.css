@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background-color: #252525;
+    font-family: Poppins, sans-serif;
+}
+*:focus {
+    outline: none;
+}
+
+body::-webkit-scrollbar {
+    width: 1rem;
+}
+
+   
+  body::-webkit-scrollbar-thumb {
+    background-color:#474647;
+    border-radius: 20px;
+    border: none;
+}
+.content {
+    color: white;
+    font-size: 22px;
+    margin: 5rem 600px 10rem 600px;
+    border-radius: 10px;
+    background-color: #474647;
+    padding: 30px 20px 30px 20px;
+}
+
+
+
+
+
